@@ -21,7 +21,7 @@ pipeline {
                 checkout scm
                 script {
                     env.IMAGE_TAG =
-                        "2.0.0"
+                        "3.0.0"
                     env.IMAGE =
                         "${env.DOCKERHUB_REPO}:${env.IMAGE_TAG}"
                     echo "Building image: ${env.IMAGE}"
