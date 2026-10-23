@@ -8,7 +8,7 @@ public class HotelService {
     private final Map<String, List<String>> menus =
             new LinkedHashMap<>();
     public HotelService() {
-        menus.put("TajBanglore", List.of(
+        menus.put("Taj", List.of(
                 "Paneer Butter Masala",
                 "Vegetable Biryani",
                 "Dal Tadka",
