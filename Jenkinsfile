@@ -8,6 +8,8 @@ pipeline {
         disableConcurrentBuilds()
     }
     environment {
+	JAVA_HOME='/usr/lib/jvm/java-21-amazon-corretto'
+	PATH+JAVA='/usr/lib/jvm/java-21-amazon-corretto/bin'
         DOCKERHUB_REPO = 'varun3214/hotel-menu-service'
         K8S_NAMESPACE = 'hotel-demo'
         K8S_DEPLOYMENT = 'hotel-menu-service'
