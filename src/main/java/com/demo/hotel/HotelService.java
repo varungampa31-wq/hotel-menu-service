@@ -10,7 +10,7 @@ public class HotelService {
     public HotelService() {
         menus.put("Taj", List.of(
                 "Paneer Butter Masala",
-                "Vegetable Biryani",
+                "Chicken Dum Biryani",
                 "Dal Tadka",
                 "Butter Naan",
 				"Gulab Jamun"
